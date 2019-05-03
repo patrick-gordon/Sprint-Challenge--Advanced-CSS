@@ -50,7 +50,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
+-   Preprocessing is a way to organize CSS in a more logical way that can not have error when converted to regualr css. It gives yoiu the ability, to nest, use mixins and parametric mixins.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+-   My favorite concept in preprocessing is having the ability to nest elements, it just makes more sense for me logially to be able to list them out using a preprocessor rather than listing the parent or grandparent class each time a new element is positioned.
+
+-   I have the most trouble with losing myself within my nesting, and selecting the right element to do a certain action. It gets confusing with media quieries nested as well.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -88,7 +94,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -104,7 +110,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [x ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
 * [ x] Add a viewport meta tag to the head of your index.html page
 
@@ -112,9 +118,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ x] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* x[ ] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [x ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [x ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
@@ -124,11 +130,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [ x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [ x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
