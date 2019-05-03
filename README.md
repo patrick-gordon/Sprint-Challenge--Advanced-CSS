@@ -118,7 +118,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ x] Navigation Styles: Use the `navigation.less` file for styling.
 
-* x[ ] Main Content Styles: Use the `home-page.less` file for styling
+* [ x] Main Content Styles: Use the `home-page.less` file for styling
 
 * [x ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
@@ -142,10 +142,10 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+* [ x] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-* [ ] Introduce CSS animations to your site.
+* [ x] Introduce CSS animations to your site.
 
-* [ ] Create a fixed navigation and add some opacity to the background
+* [ x] Create a fixed navigation and add some opacity to the background
 
-* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+* [x ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
