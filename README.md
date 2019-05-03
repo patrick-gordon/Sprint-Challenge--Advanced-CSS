@@ -34,9 +34,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+-	Fully responsive means that the website responds to the size of the browser, at any given point no matter what the width, the site will adjust its layout whatever way is most optimal. (smooth transition to smaller)
+-	Adaptive means the website adapts to the browser at specific break points. Its only concerned with the browser at certain breakpoints. (snap transition to smaller)
+
+
 2. Describe what it means to be mobile first vs desktop first.
 
+-	Mobile first is when the content is prioritized and you start with the design on a phone and then scale upwards.
+-	Desktop first is when you start with a full layout and then scale downwards for smaller devices, and layout is prioritized.
+
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+-	font-size: 62.5% makes all of the font-sizes capable of being put in rem’s by the 10’s for easy conversion. The standard is 16 px for 1 rem, but this makes it one for one. For example, 1 rem = 10 px and 2 rem = 20px and so on.
 
 4. How would you describe preprocessing to someone new to CSS?
 
@@ -96,21 +106,21 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [x ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ x] Navigation Styles: Use the `navigation.less` file for styling.
 
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [x ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [ x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [x ] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
