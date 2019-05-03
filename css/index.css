@@ -186,6 +186,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro img {
+  width: 100%;
+}
+@media (max-width:500px) {
+  .home .intro {
+    width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
   text-align: start;
@@ -197,57 +205,119 @@ footer {
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 }
-.home .space-images img {
+.home .space-images .blast {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.home .visit-planets {
+@media (max-width:500px) {
+  .home .space-images {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .home .space-images img {
+    display: none;
+  }
+  .home .space-images .blast {
+    display: block;
+    width: 100%;
+  }
+}
+.home .space-images .sky {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.home .space-images .launch {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+@media (max-width:500px) {
+}
+.visit-planets {
   padding: 15px;
 }
-.home .visit-planets h3 {
+@media (max-width:500px) {
+  .visit-planets {
+    margin-bottom: 20px;
+  }
+}
+.visit-planets h3 {
   margin-top: 11px;
 }
-.home .visit-planets p {
+.visit-planets p {
   margin-top: 13px;
 }
-.home .walk {
+.walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+@media (max-width:500px) {
+  .walk {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.walk .walk-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
+@media (max-width:500px) {
+  .walk .walk-text {
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+.walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.home .walk .walk-text p {
+.walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn button {
+.walk .walk-text .btn button {
   background-color: #000024;
   color: white;
   width: 8.5rem;
   height: 4rem;
   border-radius: 10px;
 }
-.home .walk .walk-text .btn button:hover {
+.walk .walk-text .btn button:hover {
   background-color: pink;
   color: black;
   cursor: pointer;
 }
-.home .walk .walk-img {
+@media (max-width:500px) {
+  .walk .walk-text .btn button {
+    width: 100%;
+  }
+}
+.walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+@media (max-width:500px) {
+  .walk .walk-img {
+    width: 100%;
+    margin: 0;
+  }
+}
+.walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width:500px) {
+  .walk .walk-img img {
+    width: 100%;
+  }
 }
