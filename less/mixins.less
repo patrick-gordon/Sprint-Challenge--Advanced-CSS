@@ -1,1 +1,28 @@
 // Mixins Here
+
+.align(){
+    text-align: start;
+}
+.font-1(){
+    font-size: 3.5rem;
+}
+
+
+
+
+
+
+
+//parametric mixin
+.custom-button(@bg-color: rgb(0, 0, 36), @font: white){
+    background-color: @bg-color;
+    color: @font;
+    width: 8.5rem;
+    height:4rem;
+    border-radius: 10px;
+    &:hover{
+        background-color:pink;
+        color: black;
+        cursor: pointer
+    }
+}
